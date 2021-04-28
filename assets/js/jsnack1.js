@@ -39,4 +39,12 @@ for (var player of basketballTeam) {
   player.threePointsPerc = Math.floor(Math.random() * 101) + "%";
 }
 
+const [playerOne, playerTwo, playerThree] = basketballTeam;
+
+console.log("Giocatori 1,2,3: ");
+console.log(playerOne, playerTwo, playerThree);
+console.log("-------------------");
+console.log("Output codice giocatore: ");
+console.log();
+console.log("Squadra completa: ");
 console.log(basketballTeam);
