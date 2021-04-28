@@ -1,8 +1,8 @@
-var characters = "abcdefghijklmnopqrstuvwxyz".toUpperCase(); //alfabeto
-var charactersLength = characters.length; //lunghezza alfabeto
+let characters = "abcdefghijklmnopqrstuvwxyz".toUpperCase(); //alfabeto
+let charactersLength = characters.length; //lunghezza alfabeto
 console.log(charactersLength);
 //squadra di basket
-var basketballTeam = [
+const basketballTeam = [
   {
     "Nome Giocatore": "giocatore1",
   },
@@ -19,11 +19,11 @@ var basketballTeam = [
     "Nome Giocatore": "giocatore5",
   },
 ];
-var limit = 3; //limite per caratteri e numeri casuali
+let limit = 3; //limite per caratteri e numeri casuali
 
 //funzione che genera codice giocatore casuale
 function getRandomCode(chars, length) {
-  var playerCode = "";
+  let playerCode = "";
   while (playerCode.length < 3) {
     playerCode += chars.charAt(Math.floor(Math.random() * length - 1));
   }
