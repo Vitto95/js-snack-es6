@@ -2,14 +2,7 @@
 Es: [‘pippo’, ‘PLUTO’, ‘Paperino’] => [‘Pippo’, ‘Pluto’, ‘Paperino’] */
 
 //Array iniziale
-let words = [
-  "TastierA",
-  "CELLULARE",
-  "MICRoFONo",
-  "CAlcoLATRICE",
-  "mOUSe",
-  123,
-];
+let words = ["TastierA", "CELLULARE", "MICRoFONo", "CAlcoLATRICE", "mOUSe"];
 console.log("Parole prima del ciclo: ", words);
 
 //map per creare un nuovo array con con le parole minuscole, con iniziale maiuscola.
